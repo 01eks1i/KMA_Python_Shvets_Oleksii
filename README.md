@@ -2,11 +2,11 @@
 
 Git repo with my python homework for university. 
 
-Here is a cool frog for u 
+Here is a froggie for u 
 
-              _     _
+            _     _
            (')-=-(')
          __(   "   )__
         / _/'-----'\_ \
      ___\\ \\     // //___
-jgs  7....)/_\---/_\(.....1
+    >_____)/_\---/_\(_____<
