@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def get_weather(location, date):
   
-    forecast_url = f'https://api.openweathermap.org/data/2.5/forecast?q={location}&appid=03a352d9a7fbb23de10f5d2f22937f05'
+    forecast_url = f'https://api.openweathermap.org/data/2.5/forecast?q={location}&appid={your_api}'
     response = requests.get(forecast_url)
     if response.status_code == 200:
         weather_data = response.json()
@@ -42,7 +42,7 @@ def weather_endpoint():
     date = data['date']
 
     # перевіряємо наш токен
-    if token != 'JEif_fjw@fmv':
+    if token != 'my secret token':
         return jsonify({'error': 'Invalid token'})
 
     #запит на погоду
